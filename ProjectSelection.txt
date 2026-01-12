@@ -1,3 +1,14 @@
 This is for Project Selection. Everyone is to add their preferred project ideas with little information.
 
 -> 
+
+Automated Quality Inspection using Computer Vision
+An image-based system that detects surface and structural defects (cracks, missing parts, deformations) in products, highlights the defective regions, and outputs pass/fail decisions to reduce manual inspection and improve consistency.
+
+Novelty (40% weightage)
+
+Explainable Defect Localization — highlights defect regions (bounding boxes / heatmaps) and provides a short rule-based explanation for the failure.
+
+Confidence-Aware Escalation — assigns a confidence score; low-confidence cases are auto-flagged for manual review instead of automatic rejection.
+
+Feedback-Driven Adaptation — stores human corrections and incrementally updates the dataset/model to improve accuracy over time.
