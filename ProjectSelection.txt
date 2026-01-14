@@ -2,7 +2,7 @@ This is for Project Selection. Everyone is to add their preferred project ideas 
 
 -> 
 
-Automated Quality Inspection using Computer Vision
+1. Automated Quality Inspection using Computer Vision
 An image-based system that detects surface and structural defects (cracks, missing parts, deformations) in products, highlights the defective regions, and outputs pass/fail decisions to reduce manual inspection and improve consistency.
 
 Novelty (40% weightage)
@@ -12,3 +12,22 @@ Explainable Defect Localization — highlights defect regions (bounding boxes / 
 Confidence-Aware Escalation — assigns a confidence score; low-confidence cases are auto-flagged for manual review instead of automatic rejection.
 
 Feedback-Driven Adaptation — stores human corrections and incrementally updates the dataset/model to improve accuracy over time.
+
+
+2. Intelligent Chatbot with Task Execution Automation
+
+An intelligent chatbot that understands natural language commands and executes real tasks (like scheduling, sending emails, running scripts, triggering CI jobs) in a secure and auditable way, instead of just chatting.
+
+Build a chatbot interface (web/CLI).
+Convert user messages → intent + parameters (NLU).
+Design a task planner that breaks requests into executable steps.
+Implement a secure task executor with permission checks and confirmations.
+Add connectors (email, calendar, file ops, shell scripts, APIs).
+Maintain action history, logs, and error handling.
+
+Novelty 
+
+Explainable Execution Plans
+Bot shows a step-by-step plan before executing and allows user edits/approval.
+Composable Task Intelligence
+
