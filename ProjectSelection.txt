@@ -62,3 +62,12 @@ The project models how actual business workflow automation platforms work, makin
 
 2.Strong System Design Focus:
 It involves workflow engines, task orchestration, role-based access control, and dynamic execution, demonstrating solid backend and system engineering skills.
+
+
+Strong novelty features we might add:
+1. Workflow creation using Natural Language Processing. 
+(Example: User says create me an employee onboarding workflow which starts at document verification and goes on to finance and then team selection).
+
+2. The software can determine if a particular node in the workflow is failing or creating consistent delays. In that case it can intelligently route the tasks of that workflow through other routes.
+It might use AI and additional metrics to determine the best path if the original one is not working as intended.
+
