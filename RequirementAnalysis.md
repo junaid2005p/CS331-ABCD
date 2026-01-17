@@ -10,6 +10,17 @@ The purpose of this system is to design and develop a web-based Business Process
 
 The platform aims to eliminate manual coordination, reduce delays, increase transparency, and provide auditability across business operations.
 
+## 2. Scope of the System
+
+The system provides a configurable workflow engine capable of automating a wide range of business processes such as but not limited to
+- Employee onboarding
+- Leave approvals
+- Expense reimbursement
+- Procurement requests
+- IT service requests
+- Compliance approvals
+
+The platform is generic and can be used by any organization to model their internal processes without writing code.
 
 ## 3. Definitions, Acronyms, and Abbreviations
 
