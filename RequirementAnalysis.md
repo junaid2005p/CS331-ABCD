@@ -289,3 +289,17 @@ These non-functional requirements ensure that the platform operates as a secure,
 * The system shall support deployment in a single-region cloud environment.
 * The system shall support backup and recovery mechanisms.
 * The system shall support logging and monitoring for operational visibility.
+
+
+## 10. Assumptions (Operational Reality)
+
+* The organization maintains a structured employee directory with departments, roles, and reporting hierarchy.
+* The organization operates using digital systems for core business functions.
+* The organization provisions users through existing employee records or identity systems.
+* The organization follows internal governance and compliance practices.
+* Organizations using the platform have well-defined business processes.
+* Users have basic familiarity with web applications.
+* Organizations have stable internet connectivity.
+* Organizations have access to standard enterprise systems such as HRMS, ERP, or accounting software.
+* External systems provide APIs or webhook interfaces for integration.
+* Workflow policies and approval rules are defined by the organization.
