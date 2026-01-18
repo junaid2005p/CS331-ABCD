@@ -56,3 +56,61 @@ The platform is generic and can be used by any organization to model their inter
 | System Administrator | Maintains system infrastructure       |
 
 
+
+
+## 5. Functional Requirements
+
+### 5.1 User Management
+
+- The system shall allow administrators to create organizations.
+- The system shall allow administrators to create departments.
+- The system shall allow administrators to create roles.
+- The system shall allow administrators to add users.
+- The system shall allow users to log in securely.
+- The system shall enforce role-based access control.
+
+### 5.2 Workflow Management
+
+- The system shall allow administrators to create workflows.
+- The system shall allow administrators to define workflow steps.
+- The system shall allow administrators to assign roles to workflow steps.
+- The system shall allow administrators to define conditional routing rules.
+- The system shall support parallel workflow steps.
+- The system shall support workflow versioning.
+
+### 5.3 Request Management
+- The system shall allow users to submit requests for available workflows.
+- The system shall create a request instance for each submission.
+- The system shall track the lifecycle of each request.
+- The system shall display request status in real-time.
+- The system shall allow users to add comments to requests.
+
+### 5.4 Task Management
+- The system shall generate tasks based on workflow steps.
+- The system shall assign tasks to users based on role.
+- The system shall display assigned tasks in a task inbox.
+- The system shall allow users to approve or reject tasks.
+- The system shall enforce SLA deadlines on tasks.
+- The system shall escalate overdue tasks.
+
+### 5.5 Rule Engine
+- The system shall evaluate workflow rules dynamically.
+- The system shall route tasks based on rule outcomes.
+- The system shall support complex logical expressions.
+
+### 5.6 Notification System
+- The system shall notify users when tasks are assigned.
+- The system shall notify users on task completion.
+- The system shall notify users on SLA breach.
+
+### 5.7 Audit and Compliance
+- The system shall log all workflow actions.
+- The system shall store decision history.
+- The system shall provide audit reports.
+
+### 5.8 Analytics & Reporting
+- The system shall generate workflow performance reports.
+- The system shall calculate average completion times.
+- The system shall detect workflow bottlenecks.
+
+
