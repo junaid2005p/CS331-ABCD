@@ -41,3 +41,18 @@ The platform is generic and can be used by any organization to model their inter
 | Task Orchestration               | Automated coordination and sequencing of tasks across workflow steps                                               |
 | Escalation Policy                | A predefined rule that triggers reassignment or alerts when SLA is breached                                        |
 | Process Analytics                | Analysis of workflow execution data to identify bottlenecks, delays, and optimization opportunities                |
+
+## 4. Stakeholders
+
+| Stakeholder          | Role                                  |
+| -------------------- | ------------------------------------- |
+| Organization Admin   | Configures workflows, users, rules    |
+| Employees            | Submit requests                       |
+| Managers             | Approve requests                      |
+| HR                   | Handle employee operations            |
+| Finance              | Handle payments and reimbursements    |
+| IT                   | Handle access and infrastructure      |
+| Compliance Team      | Audits logs and reports               |
+| System Administrator | Maintains system infrastructure       |
+
+
