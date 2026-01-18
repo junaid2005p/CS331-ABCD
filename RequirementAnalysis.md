@@ -195,6 +195,28 @@ The platform is generic and can be used by any organization to model their inter
 * The system shall predict resource overload.
 * The system shall validate SLA feasibility.
 
+## 7. Enterprise Platform Capabilities
+
+### 7.1 Multi-Tenant Architecture
+
+* The system shall support multiple organizations.
+* The system shall isolate data between organizations.
+* The system shall support organization-level configuration.
+
+### 7.2 Workspace & Governance Model
+
+* The system shall support departmental workspaces.
+* The system shall allow delegated workspace administration.
+* The system shall support cross-workspace workflows.
+* The system shall enforce hierarchical access control.
+
+### 7.3 Integration Framework
+
+* The system shall provide webhook input endpoints.
+* The system shall provide REST API output connectors.
+* The system shall support script execution nodes.
+* The system shall provide pluggable integration modules.
+
 ## 8. Non-Functional Requirements (NFR)
 
 ### 8.1 Performance & Scalability
