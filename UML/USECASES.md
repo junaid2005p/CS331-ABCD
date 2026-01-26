@@ -13,9 +13,9 @@ This file lists the functional behavior of the Business Process Automation Platf
 9. **Submit Workflow Request**: Allows employees to initiate a workflow instance.
 10. **Track Request Progress**: Enables users to monitor the status of workflow requests.
 11. **Cancel / Reopen Request**: Allows users to cancel or reopen workflow requests.
-12. **Assign Task**: Allows admins or the system to assign tasks to users.
+12. **Assign Task**: Allows admins to assign tasks to users based on workflow configuration.
 13. **Complete Task**: Enables employees to complete assigned tasks.
-14. **Escalate Task**: Automatically or manually escalates tasks when required.
+14. **Escalate Task**: Escalates tasks based on defined workflow rules and escalation policies.
 15. **Trigger External Action**: Invokes external services (e.g., WhatsApp, Gmail, Zoom) as part of workflow execution.
 16. **Audit & Compliance Reporting**: Maintains logs and generates reports for compliance and auditing.
 17. **Analyze Workflow Performance**: Provides insights into workflow execution metrics.
@@ -32,5 +32,4 @@ This file lists the functional behavior of the Business Process Automation Platf
 5. **Analyst**:  Analyzes workflow performance, detects bottlenecks, and runs workflow simulations.
 6. **Authentication Service**: Handles authentication, session management, and access control.
 7. **Identity Provider (IdP)**: Provides external identity verification for secure login and onboarding.
-8. **System**: Performs automated operations such as task assignment, escalation, auditing, and analytics.
-9. **External Services (WhatsApp, Gmail, Zoom)**: External systems triggered during workflow execution for communication and integration.
+8. **External Services (WhatsApp, Gmail, Zoom)**: External systems triggered during workflow execution for communication and integration.
