@@ -13,3 +13,17 @@ This file lists the functional behavior of the Business Process Automation Platf
 9. **Submit Workflow Request** – Allows employees to initiate a workflow instance.
 10. **Track Request Progress** – Enables users to monitor the status of workflow requests.
 11. **Cancel / Reopen Request** – Allows users to cancel or reopen workflow requests.
+
+
+
+## Actors
+
+1. New Employee – A user who has been invited and is joining the organization.
+2. Employee – A general user who submits requests, performs tasks, and tracks workflow progress.
+3. Admin – Manages workflows, rules, task assignment, and employee onboarding.
+4. Org Admin – A specialized admin responsible for creating and managing the organization.
+5. Analyst – Analyzes workflow performance, detects bottlenecks, and runs workflow simulations.
+6. Authentication Service – Handles authentication, session management, and access control.
+7. Identity Provider (IdP) – Provides external identity verification for secure login and onboarding.
+8. System – Performs automated operations such as task assignment, escalation, auditing, and analytics.
+9. External Services (WhatsApp, Gmail, Zoom) – External systems triggered during workflow execution for communication and integration.
