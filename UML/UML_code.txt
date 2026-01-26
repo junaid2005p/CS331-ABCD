@@ -14,6 +14,9 @@ actor "Employee" as EMP
 actor "Admin" as ADM
 actor "Org Admin" as OADM
 actor "Analyst" as ANL
+actor "Authentication Service" as AUTH
+actor "Identity Provider (IdP)" as IDP
+actor "External Services\n(WhatsApp, Gmail, Zoom)" as EXT
 
 OADM --|> ADM
 ADM --|> EMP
@@ -73,10 +76,7 @@ ANL -- UC60
 ANL -- UC61
 ANL -- UC62
 
-' AUTH / IDENTITY ACTORS
-actor "Authentication Service" as AUTH
-actor "Identity Provider (IdP)" as IDP
-
+' AUTH / IDENTITY
 UC05 -- AUTH
 UC04 -- AUTH
 UC01 -- AUTH
@@ -84,18 +84,7 @@ UC01 -- AUTH
 UC05 -- IDP
 UC04 -- IDP
 
-' SYSTEM & EXTERNAL
-actor "System" as SYS
-actor "   External Services\n(Whatsapp, GMail, Zoom)" as EXT
-
-UC21 -- SYS
-UC30 -- SYS
-UC32 -- SYS
-UC50 -- SYS
-UC60 -- SYS
-UC61 -- SYS
-UC62 -- SYS
-
+' EXTERNAL SERVICES
 UC40 -- EXT
 
 ' INCLUDE / EXTEND
@@ -110,7 +99,6 @@ UC40 .> UC31 : <<extend>>
 
 UC61 .> UC60 : <<extend>>
 UC62 .> UC60 : <<extend>>
-
 
 UC01 -[hidden]- ADM
 
