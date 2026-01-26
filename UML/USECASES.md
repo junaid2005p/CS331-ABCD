@@ -19,6 +19,8 @@ This file lists the functional behavior of the Business Process Automation Platf
 15. **Trigger External Action**: Invokes external services (e.g., WhatsApp, Gmail, Zoom) as part of workflow execution.
 16. **Audit & Compliance Reporting**: Maintains logs and generates reports for compliance and auditing.
 17. **Analyze Workflow Performance**: Provides insights into workflow execution metrics.
+18. **Detect Bottlenecks & Delays**: Identifies inefficiencies in workflow execution.
+19. **Simulate Workflow (Digital Twin)**: Simulates workflows to predict performance and optimize design.
 
 
 ## Actors
